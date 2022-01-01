@@ -55,6 +55,10 @@ public void refreshAllBestProducts() {
 }
 ```
 
+##### @CachePut
+- 메서드 실행 결과를 캐시에 저장하기 위해 사용
+- create 후 그 결과를 바로 캐싱할 때 주로 사용
+
 #### cache manager
 - 적용할 캐시 기술을 지원하는 cache maanger를 빈으로 등록한다.
 - 스프링 3.1에서는 기본적으로 다섯가지 cache manager 구현 클래스를 제공한다.
